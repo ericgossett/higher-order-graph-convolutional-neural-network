@@ -1,0 +1,5 @@
+.vscode
+env/
+mnist_data/
+__pycache__/
+*/__pycache__/
