@@ -50,7 +50,7 @@ class HOGCN(Model):
         ).minimize(
             self.cross_entropy,
             global_step=self.global_step
-)
+        )
         correct_prediction = tf.equal(
             tf.argmax(self.logits, 1),
             tf.argmax(labels, 1)
