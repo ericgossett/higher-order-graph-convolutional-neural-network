@@ -34,5 +34,5 @@ tensorflow==1.13.0rc2
 tensorflow-estimator==1.13.0
 termcolor==1.1.0
 tqdm==4.31.1
-Werkzeug==0.14.1
+Werkzeug==0.15.5
 wrapt==1.11.1
